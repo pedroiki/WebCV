@@ -7,6 +7,12 @@ body {
   background-color: #ececeb;
 }
 
+.languages {
+
+align-self: auto;
+
+}
+
 p {
   font-size: 17px
 }
@@ -97,8 +103,8 @@ a:hover {
   top: 40px;
 }
 
-.bottom-cloud {
-  /* i delet this cloud from html*/
+.animation {
+  /* i deleted from html*/
   position: absolute;
   left: 200px;
   bottom: 400px;
@@ -213,10 +219,17 @@ https://codepen.io/pedroiki/pen/WNbGzPE */
 #general-info {}
 
 #skills {
-  /* bug is nor working find the solution for background color*/
+  /* bug is not working find the solution for background color*/
   background-color: #66BFBF;
   color: #66BFBF;
 }
+
+
+#whatsapp {}
+
+
+
+
 
 .contact-message {
   color: #66BFBF;
@@ -225,4 +238,31 @@ https://codepen.io/pedroiki/pen/WNbGzPE */
 /*  isto vai permitir passar o botao nav do boostrap para a direita*/
 .btn-right {
     text-align: right !important;
+}
+
+
+.image-container{                 /* caixa aonde fica a imagem dentro*/
+
+  margin: 10px;
+
+}
+
+.projects  {                     /* aonde fica as caixinhas com os projectos*/
+  display:flex;                  /* poem tudo em uma linha*/
+  padding: 30px 300px;
+  justify-content: center;            /* disposicao dos elementos*/
+  flex-wrap: wrap;              /* faz mudar de linha, para a linha de baixo */
+}
+
+.project-image{                 /* a propria imagem */
+height: 300px;
+width: 300px;
+
+
+}
+
+.project-image:hover  {                 /* a propria imagem */
+opacity: 0.5;
+
+
 }
