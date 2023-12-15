@@ -1,9 +1,11 @@
-// ... (código JavaScript existente) ...
+document.addEventListener("DOMContentLoaded", function() {
+  // ... (existing JavaScript code) ...
 
-// Adicione esta parte para o painel de habilidades
-document.getElementById("flip").addEventListener("click", function () {
+  // Add this part for the skills panel
+  document.getElementById("flip").addEventListener("click", function() {
     document.getElementById("panel").classList.toggle("show-panel");
   });
-  
-  // ... (código JavaScript existente) ...
+
+  // ... (existing JavaScript code) ...
+});
   
